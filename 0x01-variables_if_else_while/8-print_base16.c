@@ -15,7 +15,7 @@ int main(void)
 	{
 		putchar(num);
 	}
-	for (alp = 'a'; ch <= 'f'; c++)
+	for (alp = 'a'; alp <= 'f'; alp++)
 	{
 		putchar(alp);
 	}
