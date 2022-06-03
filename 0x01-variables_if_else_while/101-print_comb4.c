@@ -16,7 +16,7 @@ int main(void)
 			{
 				for (tnum = 48; tnum < 58; tnum++)
 				{
-					if(tnum > snum)
+					if (tnum > snum)
 					{
 						putchar(fnum);
 						putchar(snum);
