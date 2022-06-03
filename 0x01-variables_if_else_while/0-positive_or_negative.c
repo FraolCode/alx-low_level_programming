@@ -3,7 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* main assigns a random number to n
+ * when the program executes and
+ * print positive , zero or negative after cheking 
+ * the value of n*/
 int main(void)
 {
 	int n;
