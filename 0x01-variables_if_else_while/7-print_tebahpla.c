@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - main print alphabet in reverse
- * folowed by a new line
- * Return: return 0 if it is success
+ * main - main print the reverse form of the
+ * alphabet using putchar
+ * Return: return 0 if successful
  */
 int main(void)
 {
-	char alp;
-	
-	for (alp = 'z'; alp >= 'a'; alp--)
+	char ch;
+
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-		putchar(alp);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
