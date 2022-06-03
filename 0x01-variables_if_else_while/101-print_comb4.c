@@ -14,7 +14,7 @@ int main(void)
 		{
 			if (snum > fnum)
 			{
-				for (tnum = 48; tnum < 58, tnum++)
+				for (tnum = 48; tnum < 58; tnum++)
 				{
 					if(tnum > snum)
 					{
@@ -32,6 +32,6 @@ int main(void)
 			}
 		}
 	}
-	puchar('\n');
+	putchar('\n');
 	return (0);
 }
