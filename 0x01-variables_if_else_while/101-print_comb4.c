@@ -21,10 +21,10 @@ int main(void)
 						putchar(fnum);
 						putchar(snum);
 						putchar(tnum);
-						if (fnum >= 55)
-						{
-							break;
-						}
+					if (fnum >= 55)
+					{
+						break;
+					}
 						putchar(',');
 						putchar(' ');
 					}
