@@ -3,10 +3,13 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* main assigns a random number to n
+/**
+ *main assigns a random number to n
  * when the program executes and
  * print positive , zero or negative after cheking 
- * the value of n*/
+ * the value of n
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
