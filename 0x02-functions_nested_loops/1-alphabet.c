@@ -2,17 +2,17 @@
 
 /**
  * print_alphabet - print alphabet
- * Return: return void
+ *
+ * Return: void
  */
 void print_alphabet(void)
 {
+	char letter = 'a';
 
-	char alp = 'a';
-
-	while (alp <= 'z')
+	while (letter <= 'z')
 	{
-		_putchar(alp);
-		alp++;
+		_putchar(letter);
+		letter++;
 	}
 	_putchar('\n');
 }
