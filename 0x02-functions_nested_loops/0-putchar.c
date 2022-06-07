@@ -1,4 +1,6 @@
-#include "main.h"
+#include <studio.h>
+#include <main.h>
+
 /**
  *  * main - entry block
  *   * @void: no argument
