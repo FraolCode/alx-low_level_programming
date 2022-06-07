@@ -1,11 +1,9 @@
-#include <studio.h>
-#include <main.h>
+#include "main.h"
 
 /**
- *  * main - entry block
- *   * @void: no argument
- *    * Return: 0
- *     **/
+ * main - print -putchar
+ * Return: 0
+ */
 int main(void)
 {
 	char fraol[] = "_putchar";
