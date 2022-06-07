@@ -1,24 +1,19 @@
 #include "main.h"
-
-
 /**
- *  * main - Entry point
- *   *
- *    * Return: nothing, return void
- *     */
-
+ *  * main - entry block
+ *   * @void: no argument
+ *    * Return: 0
+ *     **/
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	char fraol[] = "_putchar";
 
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		putchar(ermias[i]);
+	}
+	putchar('\n');
 	return (0);
 }
-
