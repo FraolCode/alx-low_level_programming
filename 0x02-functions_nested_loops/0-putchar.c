@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * main - print -putchar
- * Return: 0
+ * main - prints _putchar
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
-	char fraol[] = "_putchar";
-
-	int i;
+	char text[] = "_putchar";
+	int i = 0;
 
 	for (i = 0; i < 8; i++)
 	{
-		putchar(ermias[i]);
+		_putchar(text[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
